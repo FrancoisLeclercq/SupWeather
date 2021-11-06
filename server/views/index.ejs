@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SupWeather API</title>
+    <link rel="icon" type="image/png" href="https://i.imgur.com/Fu360Ji.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    
+    <h1 style="margin-top:10%;" class="title text-center">Welcome to SupWeather API!</h1>
+    <div class="img">
+        <img style="display: block; margin-top: 20px; margin-left: auto; margin-right: auto; margin-bottom: 20px;" class="img" src="https://i.imgur.com/Fu360Ji.png" alt="API">
+    </div>
+    <h4 class="title text-center">Let's go to: <a class="text-dark" href="https://localhost:3000/">https://supweather.com</a></h4>
+
+    <footer class="text-center text-lg-start footer">
+        <div style="position: fixed; bottom: 0; width: 100%;" class="text-center p-3">
+            © <span id="year"></span> Copyright:
+          <script>
+              document.getElementById('year').textContent = new Date().getFullYear();
+          </script>
+          <a class="text-dark" href="https://localhost:3000//">https://supweather.com</a>
+        </div>
+    </footer>
+
+</body>
+</html>
